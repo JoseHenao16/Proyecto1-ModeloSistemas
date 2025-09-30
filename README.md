@@ -4,9 +4,12 @@ Proyecto número **1** de **Modelos de Sistemas de Información e Inteligencia A
 
 ---
 
-👨‍💻 **Autor:**  
+👨‍💻 **Autores:**  
 **José David Henao Gallego**  
-*C.C. 1002205747*  
+*C.C. 1002205747*
+
+**Juan Andrés Lema Tamayo**  
+*C.C. 1001233264*  
 
 🎓 **Programa académico:**  
 Ingeniería de Sistemas  
