@@ -1,4 +1,4 @@
-# 📌 Proyecto 1 - Modelos de Sistemas  
+# Proyecto 1 - Modelos de Sistemas  
 
 Proyecto número **1** de **Modelos de Sistemas de Información e Inteligencia Artificial**.  
 
