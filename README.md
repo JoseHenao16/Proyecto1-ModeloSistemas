@@ -26,7 +26,7 @@ El proyecto consiste en desarrollar un modelo de Machine Learning para predecir 
 Proyecto-1-Modelos-de-Sistemas/
 │
 ├── 01 - exploración.ipynb          # Análisis exploratorio de datos
-├── 02 - preprocesado.ipynb          # Preprocesamiento y entrenamiento del modelo
+├── 02 - preprocesado.ipynb         # Preprocesamiento y entrenamiento del modelo
 ├── 03 - modelo con preprocesado LogisticRegression OneHot SimpleImputer.ipynb
 ├── 04 - modelo con preprocesado Ensemble GradientBoosting XGBoost LightGBM OneHot.ipynb
 ├── 05 - modelo con preprocesado Stacking XGB LGBM GB meta LogReg OrdinalEncoder.ipynb
@@ -96,36 +96,33 @@ Proyecto-1-Modelos-de-Sistemas/
 
 ### 1. Video Explicativo Final (3-4 minutos)
 
-**[Ver video en YouTube](ENLACE_PENDIENTE)**
-
-**Opción 2 - Drive:**
-**[Ver en Drive](ENLACE_PENDIENTE)**
+**[Ver video en YouTube](https://youtu.be/TQ4SkwMqriA)**
 
 **Contenido del video:**
 - Evolución de los modelos (del baseline al ensemble final)
 - Explicación del ensemble ponderado con LightGBM, XGBoost y CatBoost
 - Resultados en Kaggle (Score: 0.44355)
-- Demostración del notebook `99_modelo_solucion_ensemble_LGBM_XGB_CatBoost.ipynb`
+- Demostración del notebook `07 - modelo solución.ipynb`
 
 ---
 
 ### 2. Evolución de los modelos
 
-#### 📊 **Modelo 3: Baseline - Logistic Regression**
-- **Archivo:** `03_baseline_LogisticRegression_OneHot_SimpleImputer.ipynb`
+#### **Modelo 3: Baseline - Logistic Regression**
+- **Archivo:** `03 - modelo con preprocesado LogisticRegression OneHot SimpleImputer.ipynb`
 - **Técnicas:** OneHot Encoding, SimpleImputer
 - **Accuracy:** ~35-38%
 - **Objetivo:** Establecer línea base del rendimiento
 
-#### 📈 **Modelo 4: Ensemble Básico**
-- **Archivo:** `04_ensemble_GradientBoosting_XGBoost_LightGBM_OneHot.ipynb`
+#### **Modelo 4: Ensemble Básico**
+- **Archivo:** `04 - modelo con preprocesado Ensemble GradientBoosting XGBoost LightGBM OneHot.ipynb`
 - **Técnicas:** Promedio de probabilidades de 3 modelos
 - **Algoritmos:** GradientBoosting, XGBoost, LightGBM
 - **Accuracy:** ~40-42%
 - **Mejora:** Primera aproximación a algoritmos de boosting
 
-#### 🎯 **Modelo 5: Stacking Avanzado**
-- **Archivo:** `05_stacking_XGB_LGBM_GB_meta_LogReg_OrdinalEncoder.ipynb`
+#### **Modelo 5: Stacking Avanzado**
+- **Archivo:** `05 - modelo con preprocesado Stacking XGB LGBM GB meta LogReg OrdinalEncoder.ipynb`
 - **Técnicas:** Stacking de dos niveles con OOF predictions
 - **Base learners:** XGBoost, LightGBM, GradientBoosting
 - **Meta-modelo:** Logistic Regression
@@ -133,8 +130,8 @@ Proyecto-1-Modelos-de-Sistemas/
 - **Accuracy:** ~42-44%
 - **Diferencia clave:** Meta-aprendizaje para combinar modelos de forma inteligente
 
-#### 🚀 **Modelo 6: LightGBM Optimizado**
-- **Archivo:** `06_LightGBM_optimizado_OOF_FeatureEngineering_OrdinalEncoder.ipynb`
+#### **Modelo 6: LightGBM Optimizado**
+- **Archivo:** `06 - modelo con preprocesado LGBM optimizado OOF FeatEng Ordinal.ipynb`
 - **Técnicas:** 
   - Validación cruzada StratifiedKFold (4-7 folds)
   - Out-of-Fold predictions
@@ -151,8 +148,8 @@ Proyecto-1-Modelos-de-Sistemas/
 - **Accuracy:** ~44%
 - **Diferencia clave:** Pasó de "muchos modelos básicos" a "un solo modelo experto bien optimizado"
 
-#### 🏆 **MODELO 99 (FINAL - Entrega 3)**
-- **Archivo:** `99_modelo_solucion_ensemble_LGBM_XGB_CatBoost.ipynb`
+#### **MODELO 07 (FINAL - Entrega 3)**
+- **Archivo:** `07 - modelo solución.ipynb`
 - **Estrategia:** Ensemble ponderado (Blending)
 - **Algoritmos:**
   - **LightGBM** (peso: 0.55) - n_estimators: 600, learning_rate: 0.03
