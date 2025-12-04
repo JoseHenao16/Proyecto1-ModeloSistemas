@@ -31,7 +31,7 @@ Proyecto-1-Modelos-de-Sistemas/
 ├── 04 - modelo con preprocesado Ensemble GradientBoosting XGBoost LightGBM OneHot.ipynb
 ├── 05 - modelo con preprocesado Stacking XGB LGBM GB meta LogReg OrdinalEncoder.ipynb
 ├── 06 - modelo con preprocesado LGBM optimizado OOF FeatEng Ordinal.ipynb
-├── 07 - modelo solución.ipynb  # MODELO FINAL
+├── 99 - modelo solución.ipynb  # MODELO FINAL
 ├── README.md                   # Este archivo                 
 ```
 
@@ -148,8 +148,8 @@ Proyecto-1-Modelos-de-Sistemas/
 - **Accuracy:** ~44%
 - **Diferencia clave:** Pasó de "muchos modelos básicos" a "un solo modelo experto bien optimizado"
 
-#### **MODELO 07 (FINAL - Entrega 3)**
-- **Archivo:** `07 - modelo solución.ipynb`
+#### **MODELO 99 (FINAL - Entrega 3)**
+- **Archivo:** `99 - modelo solución.ipynb`
 - **Estrategia:** Ensemble ponderado (Blending)
 - **Algoritmos:**
   - **LightGBM** (peso: 0.55) - n_estimators: 600, learning_rate: 0.03
