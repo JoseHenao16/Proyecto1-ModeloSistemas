@@ -102,7 +102,7 @@ Proyecto-1-Modelos-de-Sistemas/
 - Evolución de los modelos (del baseline al ensemble final)
 - Explicación del ensemble ponderado con LightGBM, XGBoost y CatBoost
 - Resultados en Kaggle (Score: 0.44355)
-- Demostración del notebook `07 - modelo solución.ipynb`
+- Demostración del notebook `99 - modelo solución.ipynb`
 
 ---
 
